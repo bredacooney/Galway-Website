@@ -1,0 +1,49 @@
+div {
+    border: 2px solid black;
+    margin: 30px 60px 30px 60px;
+    
+  }
+
+main{
+    display: flex;
+
+}
+
+p{
+    color: #226800;
+    font-style: italic;
+    font-style: regular times new roman;
+
+    font-weight: 1.5em;
+}  
+
+    
+.navigation{
+    border: 1px 1px 1px 1px;
+    color: #4c0072;
+    border-style: solid ;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 10px;
+    display: flex;
+    background-color:#D9EECE;
+}   
+.navigation a{ 
+    text-decoration: none;
+    color: #226800;
+    font-style: bold;
+    display: block;
+    padding: .90em 1em;
+}
+    .navigation a:hover {
+   background-color: #C4E881;
+
+ }
+
+.selected{
+    text-decoration: none;
+    font-style: bold;
+    display: block;
+    padding: .90em 1em;
+    background-color: #C4E881;
+}
