@@ -7,7 +7,8 @@ h1 {
   font-size: 40px;
 }
 h8 {
-  font-size: 30px;
+  font-size: 28px;
+  color: blue;
 }
 div {
   /*  form */
@@ -124,4 +125,12 @@ div#example {
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
 }
