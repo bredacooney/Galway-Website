@@ -1,49 +1,127 @@
+body {
+  background-color: rgb(230, 243, 250);
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+}
+h8 {
+  font-size: 30px;
+}
 div {
-    border: 2px solid black;
-    margin: 30px 60px 30px 60px;
-    
-  }
-
-main{
-    display: flex;
-
+  /*  form */
+  border: 2px solid black;
+  margin: 30px 40px 30px 40px;
+  padding: 20px;
 }
 
-p{
-    color: #226800;
-    font-style: italic;
-    font-style: regular times new roman;
-
-    font-weight: 1.5em;
-}  
-
-    
-.navigation{
-    border: 1px 1px 1px 1px;
-    color: #4c0072;
-    border-style: solid ;
-    list-style-type: none;
-    margin: 0;
-    padding: 5px 10px;
-    display: flex;
-    background-color:#D9EECE;
-}   
-.navigation a{ 
-    text-decoration: none;
-    color: #226800;
-    font-style: bold;
-    display: block;
-    padding: .90em 1em;
+main {
+  display: flex;
 }
-    .navigation a:hover {
-   background-color: #C4E881;
+/*   FOR TRANSITION ON PHOTOS   I.E .PHOTO & .PHOTO:HOVER */
+.photo {
+  border: 2px solid red;
+  transition: border 2s;
+}
 
- }
+.photo:hover {
+  /* width: 300px; */
+  /* height: 100; */
+  border: 10px solid blue;
+}
 
-.selected{
-    text-decoration: none;
-    font-style: bold;
-    display: block;
-    padding: .90em 1em;
-    background-color: #C4E881;
+/* transitions out and in takes .2 seconds....*/
+
+/*transitions out and in take .5 seconds...*/
+/*transition: background-color 0.5s ease-in-out;*/
+
+/* transition: background-color is ease-in-out, color 0.5s ease-in-out;
+}Style for the link when hovered */
+/*a:hover {
+    background-color: #D65600;
+   
+}  */
+
+/*
+   Style the <footer> element
+   We can set the font-size, color and text-align properties here
+   and they will be inherited by elements contained within the <footer>
+ */
+footer {
+  text-align: center;
+  background-color: #0061bd;
+  color: #fefefe;
+  padding: 1em;
+  font-size: 0.875em; /* 14px  by default (16 x 0.875 = 14) */
+}
+p {
+  color: #226800;
+  font-style: italic;
+  font-style: regular times new roman;
+  font-weight: 1.5em;
+  padding: 0.5em;
+  text-align: center;
+  color: black;
+}
+
+.navigation {
+  border: 1px 1px 1px 1px;
+  color: #4c0072;
+  border-style: solid;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 10px;
+  display: flex;
+  background-color: #d9eece;
+}
+.navigation a {
+  text-decoration: none;
+  color: #226800;
+  font-style: bold;
+  display: block;
+  padding: 0.9em 1em;
+  font-size: 2em;
+  background-color: #ff944d;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out color 0.5s ease-in-out;
+  /*transitions out and in take .5 seconds...*/
+}
+
+.navigation a:hover {
+  background-color: #c4e881;
+}
+
+.selected {
+  text-decoration: none;
+  font-style: bold;
+  display: block;
+  padding: 0.9em 1em;
+  background-color: #c4e881;
+}
+
+/* .email { 
+  background-color: #c4e881;
+}*/
+/* Style for the link when hovered */
+/* a:hover { 
+  background-color: #d65600;
+  color: #fff;
+} */
+
+/* @keyframes example {    
+
+
+
+  
+from { background-color: red;  } 
+ to { background-color: yellow; } */
+
+/* The element to apply the animation to */
+div#example {
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
