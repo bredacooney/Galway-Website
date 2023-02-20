@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="navigation">
+        <li class="nav-button"><a href="../index.html">Home</a></li>
+        <li class="nav-button">
+          <a href="local-attractions.html">Local-Attractions</a>
+        </li>
+        <li class="nav-button"><a href="">History</a></li>
+        <li class="nav-button"><a href="events.html">Events</a></li>
+        <li class="selected"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p>
+      <a class="email-header" href="mailto:cooneybreda@gmail.com">Email us</a>
+    </p>
+
+    <div>
+      <!-- this is your form div-->
+
+      <form id="myForm" action="" validate>
+      <div  class="form-elements">
+        <div class="contact-inputs">
+            <label for="fullName">Your full name</label>
+            <input required id="fullName" type="text" name="full_name" />
+            <div class="field-error"></div>
+        </div>
+
+        <div class="contact-inputs">
+            <label for="emailAddress">Your email</label>
+            <input required id="emailAddress" type="email" name="email_address" />
+            <div class="field-error"></div>
+        </div>
+      </div>
+        <input class="contact-Submit" type="submit" value="Submit!" />
+    </form>
+
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38164.89896434202!2d-9.083765812601413!3d53.284050056594104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1675115389537!5m2!1sen!2sie"
+        width="500"
+        height="400"
+        style="border: 1"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <script href="form.js"></script>
+  </body>
+</html>
