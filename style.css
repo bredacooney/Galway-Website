@@ -10,7 +10,7 @@ h8 {
   font-size: 28px;
   color: blue;
 }
-div {
+div.form-control {
   /*  form */
   border: 2px solid black;
   margin: 30px 40px 30px 40px;
@@ -133,4 +133,8 @@ td {
 }
 td {
   text-align: center;
+}
+.field-error {
+  color: red;
+  font-weight: bold;
 }

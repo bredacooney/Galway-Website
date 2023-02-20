@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="style.css" />
     <title>contact</title>
+    <!-- form Details -->
     <style>
       label,
       input,
@@ -58,26 +59,31 @@
         <div class="form-control">
           <label for="fullname">your full name</label>
           <input required id="fullname" type="text" name="fullname" />
+          <div id="field-error"></div>
         </div>
         <!--email-->
 
-        <div>
+        <div class="form-control">
           <label for="email">your email address </label>
           <input required id="email" type name="email_address" />
+          <div class="field-error"></div>
         </div>
+
         <!--age-->
-        <div class="form-control">
-          <label for="age">your age </label>
+        <!-- <div class="form-control"> -->
+        <!-- <label for="age">your age </label>
           <input id="age" type="number" name="age" min="1" max="150" />
+          <div class="field-error"></div>
+        </div>
         </div>
 
-        <!--textarea-->
-        <div class="form-control">
-          <label for="story">add Your story</label>
-          <textarea id="story" name="story"></textarea>
-        </div>
+        
+        <div class="form-control"> 
+         <label for="story">add Your story</label> 
+        <textarea id="story" name="story"></textarea> 
+         
 
-        <!--textarea-->
+        <!-textarea-->
         <input type="submit" value="go!" />
       </form>
       <!-- FOR E-MAIL ADDRESS LINK IN BOX -->
@@ -92,5 +98,6 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+    <script href="form.js"></script>
   </body>
 </html>
