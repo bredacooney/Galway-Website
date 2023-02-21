@@ -1,0 +1,196 @@
+/*#region cosnsitent-main-elements*/
+.navigation {
+  border: 1px 1px 1px 1px;
+  color: #4c0072;
+  border-style: solid;
+  list-style-type: none;
+  margin: 1em;
+  padding: 0.5em 1em;
+  display: flex;
+  background-color: #d9eece;
+}
+.nav-button {
+  padding: 0.5em;
+}
+.navigation a {
+  text-decoration: none;
+  color: #226800;
+  font-style: bold;
+  display: block;
+  padding: 0.5em 0.5em;
+  font-size: 2em;
+  background-color: #ff944d;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out color 0.5s ease-in-out;
+  /*transitions out and in take .5 seconds...*/
+}
+
+.navigation a:hover {
+  background-color: #c4e881;
+}
+
+.selected {
+  text-decoration: none;
+  font-style: bold;
+  display: block;
+  padding: 0.5em 0.5em;
+  background-color: #c4e881;
+}
+
+body {
+  background-color: rgb(230, 243, 250);
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+}
+
+main {
+  display: flex;
+}
+
+/*#endregion*/
+
+div.form-control {
+  /*  form */
+  border: 2px solid black;
+  margin: 30px 40px 30px 40px;
+  padding: 20px;
+}
+
+/*   FOR TRANSITION ON PHOTOS   I.E .PHOTO & .PHOTO:HOVER */
+.photo {
+  border: 2px solid red;
+  transition: border 2s;
+}
+
+.photo:hover {
+  /* width: 300px; */
+  /* height: 100; */
+  border: 10px solid blue;
+}
+
+/*#region Transitions Info*/
+/* transitions out and in takes .2 seconds....*/
+
+/*transitions out and in take .5 seconds...*/
+/*transition: background-color 0.5s ease-in-out;*/
+
+/* transition: background-color is ease-in-out, color 0.5s ease-in-out;
+}Style for the link when hovered */
+/*a:hover {
+    background-color: #D65600;
+   
+}  */
+
+/*
+   Style the <footer> element
+   We can set the font-size, color and text-align properties here
+   and they will be inherited by elements contained within the <footer>
+ */
+/*#endregion*/
+
+footer {
+  text-align: center;
+  background-color: #0061bd;
+  color: #fefefe;
+  padding: 1em;
+  font-size: 0.875em; /* 14px  by default (16 x 0.875 = 14) */
+}
+p {
+  color: #226800;
+  font-style: italic;
+  font-style: regular times new roman;
+  font-weight: 1.5em;
+  padding: 0.5em;
+  text-align: center;
+  color: black;
+}
+
+/* .email { 
+  background-color: #c4e881;
+}*/
+/* Style for the link when hovered */
+/* a:hover { 
+  background-color: #d65600;
+  color: #fff;
+} */
+
+/* @keyframes example {    
+from { background-color: red;  } 
+ to { background-color: yellow; } */
+
+/* The element to apply the animation to */
+div#example {
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+}
+.field-error {
+  color: red;
+  font-weight: bold;
+}
+
+/*#region conact-page-elements*/
+.email-header {
+  background-color: #6ecf3e;
+  color: white;
+  border: solid black;
+  padding: .5em 1em;
+  font-size: x-large;
+}
+
+.map {
+  margin-left: 5em;
+  margin-top: -25em;
+  border: solid gray;
+}
+
+.contact-Submit {
+  margin: 1em 12em;
+  margin-bottom: 1em;
+  background-color:  rgb(199, 140, 140);
+  padding: 1em 1em;
+  transition: 1s;
+}
+
+.contact-Submit:hover {
+   background-color: #a83fdc;
+   color: white;
+}
+
+.form-elements{
+  background-color: #6e9cc6;
+  width: 50%;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #0975da;
+  border: solid rgb(70, 65, 65);
+  padding: 1em 5em;
+  color: white;
+}
+
+#myForm{
+  background-color: #365c7e;
+  border: solid rgb(45, 43, 43) .5em;
+  width: 20%;
+  margin-left: 40em;
+  padding: 2em 5em;
+}
+
+.contact-inputs{
+  margin-top: 2em;
+}
+
+/*#endregion*/
